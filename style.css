@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid {
+    flex-direction: column;
+}
+
+.box {
+    padding: 25px;
+    background-color: darkgrey;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    gap: 25px;
+}
+
+li {
+    margin-left: 0px;
+}
