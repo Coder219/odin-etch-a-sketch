@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: lightblue;
 }
 
 .container {
@@ -20,8 +21,8 @@ body {
 ul {
     display: flex;
     list-style-type: none;
-    justify-content: center;
     gap: 25px;
+    padding: 0px;
 }
 
 li {
@@ -31,4 +32,42 @@ li {
 .row {
     display:flex;
     justify-content: flex-start;
+}
+
+.buttons {
+    display:flex;
+    gap: 10px;
+    margin: 10px;
+}
+
+button {
+    width: 100px;
+}
+
+.colors{
+    display:flex;
+    gap: 10px;
+}
+
+.colors button {
+    width: 25px;
+    height: auto;
+    border: 0px;
+    border-radius: 2px;
+}
+
+#red {
+    background-color: red;
+}
+
+#black {
+    background-color: black;
+}
+
+#blue {
+    background-color: blue;
+}
+
+#green {
+    background-color: green;
 }
