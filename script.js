@@ -21,12 +21,8 @@ function createGrid(width,height){
             box.classList.add('box');
             box.addEventListener('mouseover', function(){
                 console.log(`Mouse over row${row} column${column}`);
-                box.style.backgroundColor = 'red';
             });
-            box.addEventListener('mouseleave', function(){
-                box.style.backgroundColor = 'darkgrey';
-            });
-            box.textContent = `(${row},${column})`
+            box.style.padding = (screen.height)/height
             rowContainer.appendChild(box);
         }
     }
